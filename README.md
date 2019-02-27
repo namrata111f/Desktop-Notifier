@@ -6,7 +6,7 @@ Web Scraping involves extracting and processing vast amount of data from a websi
 We accomplish this preferably using python as it provides a lot of libraries and functions which expedites the process.
 To perform web scraping, we import the libraries as mentioned. The urllib.request module is used to open URLs. The Beautiful Soup package is used to extract data from html files. The Beautiful Soup library's name is bs4 which stands for Beautiful Soup, version 4.
 Python is best suited language for this work because beautifulsoup library which we use for scraping is fast. We can write the code for extracting any html information with the help of it.\
-Initially to learn the basics we scraped a website coreyms.com.\
+Initially to learn the basics we scraped a website coreyms.com.
 
 Regarding this project we learnt about Beautiful soup which is a python package used to parse data from HTML and XML documents.\
 We wrote the code in python so firstly, we needed to import the beautiful soup from bs4 and wrote:\
@@ -28,7 +28,7 @@ Also while inspecting the page we found that the youtube link was in iframe of c
 -> vid_src=article.find(‘iframe’,class_=’youtube-player’)[‘src’]\
 -> vid_id=vid_src.split(‘\’)[4]\
 -> vid_id=vid_id.split(‘?’)[0]\
--> Y_link=f’http://youtube.com/watch?v={vid_id}’\
+-> Y_link=f’http://youtube.com/watch?v={vid_id}’ \
 -> Print(y_link)\
 Lastly , we repeated the whole process for each article using for loop.
 
