@@ -11,7 +11,7 @@ Initially to learn the basics we scraped a website coreyms.com.
 Regarding this project we learnt about Beautiful soup which is a python package used to parse data from HTML and XML documents.\
 We wrote the code in python so firstly, we needed to import the beautiful soup from bs4 and wrote:
 ```
-->from bs4 import Beautifulsoup
+from bs4 import Beautifulsoup
 ```
 After that we needed to import requests library so we could get the texts and required things from the website that we wanted to scrap
 So, we wrote
