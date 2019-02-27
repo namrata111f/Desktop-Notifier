@@ -13,8 +13,10 @@ We wrote the code in python so firstly, we needed to import the beautiful soup f
 ->from bs4 import Beautifulsoup\
 After that we needed to import requests library so we could get the texts and required things from the website that we wanted to scrap
 So, we wrote\
+```
 -> Import requests\
 -> source=requests.get(‘http://coreyms.com’).text
+```
 After that we needed a parser so we wrote \
 -> soup=BeautifulSoup(source,’lxml’)\
 Then we needed to scrap the article , it’s heading , summary and it’s youtube link so we wrote down:\
