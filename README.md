@@ -1,7 +1,7 @@
 # Desktop-Notifier
 It is an desktop app which gives pop-up notification of current news and notifies when charger has to be plugged in or removed.
 
-Web Scraping Using Python
+Web Scraping Using Python :
 Web Scraping involves extracting and processing vast amount of data from a website.
 We accomplish this preferably using python as it provides a lot of libraries and functions which expedites the process. 
 To perform web scraping, we import the libraries as mentioned. The urllib.request module is used to open URLs. The Beautiful Soup package is used to extract data from html files. The Beautiful Soup library's name is bs4 which stands for Beautiful Soup, version 4.
