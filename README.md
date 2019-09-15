@@ -1,5 +1,5 @@
 # Desktop-Notifier
-It is an desktop app which gives pop-up notification of current news and notifies when charger has to be plugged in or removed.
+It is a desktop app which gives pop-up notification of current news and notifies when charger has to be plugged in or removed.
 
 ## Web Scraping Using Python :
 Web Scraping involves extracting and processing vast amount of data from a website.\
